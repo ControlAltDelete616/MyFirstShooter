@@ -9,6 +9,7 @@ public class Shoot : MonoBehaviour
     public float speed = 2000f;
     public float shootRate = 0.1f;
     public AudioSource shootSound;
+
     float timer = 0f;
 
 
@@ -30,8 +31,8 @@ public class Shoot : MonoBehaviour
         }
         else
         {
-            if (shootSound != null)
-                shootSound.mute = true;
+           // if (shootSound != null)
+               // shootSound.mute = true;
         }
 
     }
